@@ -12,7 +12,7 @@
     width: clamp(360px, 96vw, 80%);
     aspect-ratio: 16 / 9;
     min-height: 300px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 8px;
     container-type: inline-size;
     contain: content;
