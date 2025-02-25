@@ -82,7 +82,7 @@
 .slider-navigation {
     z-index: 10;
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); Adjust thumbnail size */
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     gap: 0.75rem; /* Reduce gap for better spacing */
     padding: 1rem;
     overflow-x: auto; 
@@ -129,7 +129,7 @@
     display: block;
     max-width: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
 }
 
